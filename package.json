@@ -1,0 +1,22 @@
+{
+  "name": "projectprojectum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willsower/ProjectProjectum.git"
+  },
+  "author": "Taichen Rose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willsower/ProjectProjectum/issues"
+  },
+  "homepage": "https://github.com/willsower/ProjectProjectum#readme",
+  "devDependencies": {
+    "electron": "^16.0.5"
+  }
+}
