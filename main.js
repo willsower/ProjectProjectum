@@ -4,8 +4,8 @@ const { app, BrowserWindow } = require("electron");
 // Function that will create a desktop window with custom size preferences that will load the HTML file.
 function createWindow() {
   const win = new BrowserWindow({
-    width: 1000,
-    height: 800,
+    width: 800,
+    height: 600,
     webPreferences: {
       nodeIntegration: true,
     },
