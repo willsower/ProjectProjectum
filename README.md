@@ -5,18 +5,19 @@
 3. To run application do `npm start`
 
 ## Project Structure
-electron/ <- Window/Main
-model/ <- DataStores
-node_modules/ <- Dependencies
-public/ <- Add in static content
-&nbsp;&nbsp;&nbsp;img/
-&nbsp;&nbsp;&nbsp;video/
-&nbsp;&nbsp;&nbsp;fonts/
+```Python
+electron/ # Window/Main
+model/ # DataStores
+node_modules/ # Dependencies
+public/ # Add in static content
+  img/
+  video/
+  fonts/
 src/
-&nbsp;&nbsp;&nbsp;components/ 
-&nbsp;&nbsp;&nbsp;pages/ 
-&nbsp;&nbsp;&nbsp;styles/ 
-&nbsp;&nbsp;&nbsp;index.js
+  components/ 
+  pages/ 
+  styles/ 
+  index.js
 tests/
 .eslintrc.json
 .gitignore
@@ -26,3 +27,4 @@ postcss.config.js
 Procfile
 README.md
 tailwind.config.js
+```
