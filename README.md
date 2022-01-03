@@ -17,6 +17,7 @@ src/
 &nbsp;&nbsp;&nbsp;pages/ 
 &nbsp;&nbsp;&nbsp;styles/ 
 &nbsp;&nbsp;&nbsp;index.js
+tests/
 .eslintrc.json
 .gitignore
 package-lock.json
