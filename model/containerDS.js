@@ -19,4 +19,8 @@ class ContainerDS extends Store {
   add(obj) {
     this.container = [ ...this.container, obj ]
   }
+
+  remove(obj) {
+    this.container = this.container.filter(p => p !== obj)
+  }
 }

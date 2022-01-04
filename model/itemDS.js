@@ -4,23 +4,27 @@ class ItemDS extends Store {
   constructor (id) {
     super(id)
     this.id = id
-    this.card = this.get(id) || {}
+    this.item = this.get(id) || {}
   }
 
   save() {
-    this.set(this.id, this.card)
+    this.set(this.id, this.item)
   }
 
   get() {
-    this.card = this.get(this.id) || []
-    return this.card
+    this.item = this.get(this.id) || []
+    return this.item
   }
 
   getProperty(name) {
-    return this.card[name]
+    return this.item[name]
   }
 
   setProperty(name, value) {
-    this.card[name] = value
+    this.item[name] = value
+  }
+
+  removeProperty(name) {
+    delete this.item[name]
   }
 }
