@@ -1,4 +1,4 @@
-class TodoCard extends Item {
+class Container extends Item {
     constructor(id, x, y, color) {
       super(id, x, y, color)
     }
