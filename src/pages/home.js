@@ -4,13 +4,16 @@ import Settings from "../components/settings";
 
 function Home() {
   return (
-    <div className="flex flex-col h-screen">
-      <Header />
-      <Settings />      
+    <div className = "w-screen h-screen">
+      <Settings />
 
-      <div className="flex grow">
-        <LeftNav />
-        {/* <Board /> */}
+      <div className="flex flex-col h-screen">
+        <Header />
+
+        <div className="flex grow">
+          <LeftNav />
+          {/* <Board /> */}
+        </div>
       </div>
     </div>
   );
