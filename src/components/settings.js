@@ -7,7 +7,7 @@ export default function Settings({ setSettingsOpen }) {
       </div>
 
       {/* Inside white */}
-      <div className="bg-red-500 z-50 w-96 h-80 relative m-auto translate-y-1/2">
+      <div className="bg-white z-20 max-w-xl h-96 relative m-auto translate-y-1/2 rounded">
         heyoooo
       </div>
     </div>
