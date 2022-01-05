@@ -9,7 +9,7 @@ export default function Settings({ setSettingsOpen }) {
       {/* Inside white */}
       <div className="bg-white z-20 max-w-xl h-96 relative m-auto mt-12 rounded-xl flex">
         {/* Settings Nav */}
-        <div className="w-36 bg-red-200">
+        <div className="w-36 ml-5 mt-5">
           <p className = "settingsName">Account Settings</p>
           <p className = "settingsName">Appearance</p>
           <p className = "settingsName">Preferences</p>

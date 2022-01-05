@@ -1,3 +1,16 @@
 .settingsName {
-    
+    font-size: 0.75rem;
+    padding: 6px 0px 6px 10px;
+    color: rgb(66, 65, 65);
+}
+
+.settingsName:hover {
+    background-color: rgb(232, 233, 235);
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.settingsName:active {
+    background-color: blue;
+    border-radius: .25rem;
 }
