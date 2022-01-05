@@ -1,4 +1,4 @@
-export default function Header() {
+export default function Header({ setSettingsOpen }) {
   return (
     <div class="bg-slate-50 h-11 flex items-center border-b drop-shadow-sm">
       {/* Logo */}
@@ -66,6 +66,7 @@ export default function Header() {
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          onClick={() => setSettingsOpen(true)}
         >
           <path
             stroke-linecap="round"

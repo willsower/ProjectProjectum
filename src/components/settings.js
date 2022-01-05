@@ -34,11 +34,16 @@ export default function Settings({ setSettingsOpen, settingsOpen }) {
 
   return (
     <div className="absolute w-screen h-screen">
-      {/* Gray Background */}
-      <div className="fixed top-0 left-0 w-screen h-screen bg-black opacity-50 z-20" onClick = {() => {setSettingsOpen(false)}}></div>
-
       {settingsOpen && (
         <>
+          {/* Gray Background */}
+          <div
+            className="fixed top-0 left-0 w-screen h-screen bg-black opacity-50 z-20"
+            onClick={() => {
+              setSettingsOpen(false);
+            }}
+          ></div>
+
           {/* Inside white */}
           <div className="bg-white z-20 max-w-2xl h-96 relative m-auto mt-12 rounded-xl flex">
             {/* Settings Nav */}
