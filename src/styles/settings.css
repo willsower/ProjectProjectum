@@ -4,15 +4,10 @@
     color: rgb(66, 65, 65);
 }
 
-.settingsName:hover {
+.settingsNameOnActive {
     background-color: rgb(232, 233, 235);
     border-radius: .25rem;
     cursor: pointer;
-}
-
-.settingsName:active {
-    background-color: blue;
-    border-radius: .25rem;
 }
 
 .settingsTitle {

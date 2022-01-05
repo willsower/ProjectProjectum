@@ -48,10 +48,10 @@ export default function Settings({ setSettingsOpen, settingsOpen }) {
           <div className="bg-white z-20 max-w-2xl h-96 relative m-auto mt-12 rounded-xl flex">
             {/* Settings Nav */}
             <div className="w-40 ml-5 mt-5">
-              <p className="settingsName" onClick = {() => setCurrentTab("Account Settings")}>Account Settings</p>
-              <p className="settingsName" onClick = {() => setCurrentTab("Appearance")}>Appearance</p>
-              <p className="settingsName" onClick = {() => setCurrentTab("Preferences")}>Preferences</p>
-              <p className="settingsName" onClick = {() => setCurrentTab("Menu Options")}>Menu Options</p>
+              <p className={`settingsName ${accountSettingsClicked && 'settingsNameOnActive'}`} onClick = {() => setCurrentTab("Account Settings")}>Account Settings</p>
+              <p className={`settingsName ${appearanceClicked && 'settingsNameOnActive'}`} onClick = {() => setCurrentTab("Appearance")}>Appearance</p>
+              <p className={`settingsName ${preferencesClicked && 'settingsNameOnActive'}`} onClick = {() => setCurrentTab("Preferences")}>Preferences</p>
+              <p className={`settingsName ${menuOptionsClicked && 'settingsNameOnActive'}`} onClick = {() => setCurrentTab("Menu Options")}>Menu Options</p>
             </div>
 
             {/* Output */}
