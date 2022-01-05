@@ -14,3 +14,19 @@
     background-color: blue;
     border-radius: .25rem;
 }
+
+.settingsTitle {
+    font-weight: 600;
+}
+
+.settingsHeader {
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.settingsDesc {
+    font-size: 0.65rem;
+    margin-top: 0.25rem;
+    color: rgb(66, 65, 65);
+}
