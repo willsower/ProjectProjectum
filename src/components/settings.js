@@ -48,10 +48,10 @@ export default function Settings({ setSettingsOpen, settingsOpen }) {
           <div className="bg-white z-20 max-w-2xl h-96 relative m-auto mt-12 rounded-xl flex">
             {/* Settings Nav */}
             <div className="w-40 ml-5 mt-5">
-              <p className="settingsName">Account Settings</p>
-              <p className="settingsName">Appearance</p>
-              <p className="settingsName">Preferences</p>
-              <p className="settingsName">Menu Options</p>
+              <p className="settingsName" onClick = {() => setCurrentTab("Account Settings")}>Account Settings</p>
+              <p className="settingsName" onClick = {() => setCurrentTab("Appearance")}>Appearance</p>
+              <p className="settingsName" onClick = {() => setCurrentTab("Preferences")}>Preferences</p>
+              <p className="settingsName" onClick = {() => setCurrentTab("Menu Options")}>Menu Options</p>
             </div>
 
             {/* Output */}
@@ -60,6 +60,20 @@ export default function Settings({ setSettingsOpen, settingsOpen }) {
               {accountSettingsClicked && (
                 <>
                   <p className="settingsTitle">Account Settings</p>
+                </>
+              )}
+
+              {/* Appearance Clicked */}
+              {appearanceClicked && (
+                <>
+                  <p className="settingsTitle">Appearance</p>
+                </>
+              )}
+
+              {/* Preferences Clicked */}
+              {preferencesClicked && (
+                <>
+                  <p className="settingsTitle">Preferences</p>
 
                   <p className="settingsHeader">
                     Prevent cards from overlapping
@@ -111,20 +125,6 @@ export default function Settings({ setSettingsOpen, settingsOpen }) {
                     Speed and pressure will affect the line thickness when you
                     draw
                   </p>
-                </>
-              )}
-
-              {/* Appearance Clicked */}
-              {appearanceClicked && (
-                <>
-                  <p className="settingsTitle">Appearance</p>
-                </>
-              )}
-
-              {/* Preferences Clicked */}
-              {preferencesClicked && (
-                <>
-                  <p className="settingsTitle">Preferences</p>
                 </>
               )}
 
