@@ -48,7 +48,35 @@ export default function Settings({ setSettingsOpen }) {
         </div>
 
         {/* Output */}
-        <div className="bg-blue-200 grow"></div>
+        <div className="bg-blue-200 grow">
+          {/* Account Settings Clicked */}
+          {accountSettingsClicked &&
+            <>
+            
+            </>
+          }
+
+          {/* Appearance Clicked */}
+          {appearanceClicked &&
+            <>
+            
+            </>
+          }
+
+          {/* Preferences Clicked */}
+          {preferencesClicked &&
+            <>
+            
+            </>
+          }
+
+          {/* Menu Options Clicked */}
+          {menuOptionsClicked &&
+            <>
+            
+            </>
+          }
+        </div>
       </div>
     </div>
   );
